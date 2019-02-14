@@ -1,4 +1,6 @@
 #!/bin/sh
+#Define variables
+
 failures=0
 if ! sh tests/test_in_dir_singleton.sh
 then
